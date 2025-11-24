@@ -4,7 +4,6 @@ body{
     display: flex;
     justify-content: center;
     padding: 10%;
-
 }
 .app{
     width: 100%;
@@ -57,17 +56,36 @@ body{
     font-size: 170%;
     margin: 0%;
 }
-#details{
-    border: none;
-    background: none;
-    padding: 0%;
-    margin: 0%;
-    outline: none;
-    display: flex;
-    justify-content: flex-end;
-}
-#details img{
-    width: 70%;
-    height: auto;
-    display: block;
+
+@media(max-width: 767px){
+    body {
+        flex-direction: column;
+        padding: 5%;
+        justify-content: flex-start;
+    }   
+    .card{
+        flex-direction: column;
+        padding: 5%;
+    }
+    .cardtrailer{
+        flex: none;
+        width: 100%;
+        padding: 2%;
+    }
+    .trailer{
+        width: 100%;
+        aspect-ratio: 16/9;
+        display: block;
+    }
+    .cardcontent{
+        flex: none;
+        width: 100%;
+        margin-top: 2%;
+    }
+    #cardname{
+        font-size: 200%;
+    }
+    #cardrole, #cardlecture{
+        font-size: 120%;
+    }
 }
