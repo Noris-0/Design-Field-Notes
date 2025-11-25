@@ -4,13 +4,16 @@ body{
     display: flex;
     justify-content: center;
     padding: 10%;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .app{
     width: 100%;
     overflow: hidden;
 }
 .header{
-    color: #fff;
+    padding-top: 15%;
     width: 100%;
     height: auto;
     display: block;
@@ -24,12 +27,12 @@ body{
     display: flex;
     color: #fff;
     background: linear-gradient(to left, #D6E897, #9DBDAA);
-    padding: 2%;
 }
 .cardtrailer{
     flex: 0 0 45%;
     position: static;
     padding-right: 2%;
+    padding: 2%;
 }
 .trailer{
     width: 100%;
@@ -67,7 +70,6 @@ body{
     }   
     .card{
         flex-direction: column;
-        padding: 4%;
     }
     .cardtrailer{
         flex: none;
