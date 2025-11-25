@@ -26,7 +26,7 @@ body{
 .card{
     display: flex;
     color: black;
-    background: linear-gradient(to left, #D6E897, #9DBDAA);
+    padding: 4%;
 }
 .cardtrailer{
     flex: 0 0 45%;
