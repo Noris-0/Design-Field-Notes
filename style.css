@@ -24,18 +24,18 @@ body{
     display: flex;
     color: #fff;
     background: linear-gradient(to left, #D6E897, #9DBDAA);
-    margin-top: 5%;
     padding: 2%;
 }
 .cardtrailer{
-    flex: 0 0 35%;
+    flex: 0 0 45%;
     position: static;
-    padding: 2%;
+    padding-right: 2%;
 }
 .trailer{
     width: 100%;
-    aspect-ratio: 16/9;
     display: block;
+    height: 100%;
+    aspect-ratio: 16/8;
 }
 .cardcontent{
     flex: 1;
@@ -43,7 +43,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     position: static;
-    padding-left: 5%;
+    margin-bottom: 2%;
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.12);
 }
 #cardname{
@@ -59,28 +59,33 @@ body{
 
 @media(max-width: 767px){
     body {
+        margin: 0%;
         flex-direction: column;
-        padding: 5%;
+        padding: 4%;
         justify-content: flex-start;
+        display: flex;
     }   
     .card{
         flex-direction: column;
-        padding: 5%;
+        padding: 4%;
     }
     .cardtrailer{
         flex: none;
         width: 100%;
-        padding: 2%;
+        padding-right: 2%;
+        margin: 0%;
     }
     .trailer{
         width: 100%;
-        aspect-ratio: 16/9;
         display: block;
+        height: 100%;
+        aspect-ratio: 16/8;
     }
     .cardcontent{
         flex: none;
         width: 100%;
         margin-top: 2%;
+        padding-left: 0%;
     }
     #cardname{
         font-size: 200%;
