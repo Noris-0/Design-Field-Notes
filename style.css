@@ -74,6 +74,7 @@ body{
         flex-direction: column;
         padding: 4%;
         justify-content: center;
+        color: black;
     }
     .cardtrailer{
         flex: none;
@@ -83,7 +84,7 @@ body{
         width: 100%;
         display: block;
         height: 100%;
-        aspect-ratio: 3/2;
+        aspect-ratio: 16/9;
     }
     .cardcontent{
         flex: 0%;
